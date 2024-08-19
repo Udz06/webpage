@@ -1,0 +1,636 @@
+<?php
+$members = [
+  [
+    "name" =>
+    "Niall Horan",
+    "image" =>
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Niall_Horan_on_iHeartRadio_Canada_in_2023_%281%29_%28cropped%29.png/220px-Niall_Horan_on_iHeartRadio_Canada_in_2023_%281%29_%28cropped%29.png",
+    "alt" => "Niall Horan",
+    "info" => "Singer, songwriter, and guitarist.",
+    "link"
+    => "https://www.instagram.com/niallhoran/"
+  ],
+  [
+    "name" => "Harry Styles",
+    "image" =>
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/220px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg",
+    "alt" => "Harry Styles",
+    "info" => "Singer, songwriter, and actor.",
+    "link" =>
+    "https://www.instagram.com/harrystyles/"
+  ],
+  [
+    "name" => "Liam Payne",
+    "image" =>
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Liam_Payne_in_April_2023.png/220px-Liam_Payne_in_April_2023.png",
+    "alt" => "Liam Payne",
+    "info" => "Singer, songwriter, and producer.",
+    "link" =>
+    "https://www.instagram.com/liampayne/"
+  ],
+  [
+    "name" => "Louis Tomlinson",
+    "image"
+    =>
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Louis_Tomlinson_2019_MTV.png/220px-Louis_Tomlinson_2019_MTV.png",
+    "alt" => "Louis Tomlinson",
+    "info" => "Singer, songwriter, and recordproducer.",
+    "link" => "https://www.instagram.com/louist91/"
+  ],
+  [
+    "name" => "ZaynMalik",
+    "image" =>
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Zayn_Wiki_%28cropped%29.jpg/220px-Zayn_Wiki_%28cropped%29.jpg",
+    "alt" => "Zayn Malik",
+    "info" => "Former member, singer, and songwriter.",
+    "link" => "https://www.instagram.com/zayn/"
+  ]
+];
+
+$music = [
+  [
+    "title" => "Midnight Memories",
+    "image" => "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/One_Direction_Midnight_Memories_%28Official_Album_Cover%29.png/220px-One_Direction_Midnight_Memories_%28Official_Album_Cover%29.png",
+    "alt" => "Midnight Memories",
+    "link" => "https://www.youtube.com/watch?v=bkx9kCdaaMg"
+  ],
+  [
+    "title" => "Take Me Home",
+    "image" => "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a4/31/b6/a431b64a-066a-8d23-e0eb-eda1f8a8d100/dj.hxvhirii.tif/600x600bf-60.jpg",
+    "alt" => "Live While We're Young",
+    "link" => "https://www.youtube.com/watch?v=AbPED9bisSc&list=PLbatIuSsTsiqFhsSUc4uCuDfERHOR0pLe"
+  ],
+  [
+    "title" => "Kiss You",
+    "image" => "https://i1.sndcdn.com/artworks-000044165869-skfo8n-t500x500.jpg",
+    "alt" => "Four",
+    "link" => "https://www.youtube.com/watch?v=T4cdfRohhcg&list=PLbatIuSsTsiqFhsSUc4uCuDfERHOR0pLe&index=2"
+  ],
+  [
+    "title" => "What Makes You Beautiful",
+    "image" => "https://upload.wikimedia.org/wikipedia/en/7/75/What_Makes_You_Beautiful_Album_Cover.jpg",
+    "alt" => "Four",
+    "link" => "https://www.youtube.com/watch?v=QJO3ROT-A4E"
+  ],
+  [
+    "title" => "One Thing",
+    "image" => "https://upload.wikimedia.org/wikipedia/en/a/ae/One_Direction_-_One_Thing_Cover.jpg",
+    "alt" => "Four",
+    "link" => "https://www.youtube.com/watch?v=Y1xs_xPb46M"
+  ],
+  [
+    "title" => "Drag Me Down",
+    "image" => "https://upload.wikimedia.org/wikipedia/en/3/34/One_Direction_-_Drag_Me_Down_%28Official_Single_Cover%29.png",
+    "alt" => "Four",
+    "link" => "https://www.youtube.com/watch?v=Jwgf3wmiA04"
+  ],
+  [
+    "title" => "Take Me Home Album",
+    "image" => "https://i.scdn.co/image/ab67616d0000b2734e31e0d38b89b8fb239d4fbf",
+    "alt" => "Four",
+    "link" => "https://www.youtube.com/watch?v=3b_1Ghiuovo&t=3s"
+  ],
+  [
+    "title" => "Midnight Memories Album",
+    "image" => "https://upload.wikimedia.org/wikipedia/en/2/28/One_Direction_Midnight_Memories_%28Official_Album_Cover%29.png",
+    "alt" => "Four",
+    "link" => "https://www.youtube.com/watch?v=o_v9MY_FMcw&list=PLbatIuSsTsip1xuXfhk2CGT869LnPOpQX&index=2"
+  ],
+  [
+    "title" => "Four Album",
+    "image" => "https://upload.wikimedia.org/wikipedia/en/e/e8/One_Direction_-_Four.png",
+    "alt" => "Four",
+    "link" => "https://www.youtube.com/watch?v=VyotcwmZE3w&list=PL-5MsImZhxWbFdFSbiFenyZdyf1KhszHS"
+  ],
+];
+
+$socialMedia = [
+  [
+    "name" => "Instagram",
+    "link" => "https://www.instagram.com/1direction/",
+    "image" => "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/640px-Instagram_logo_2022.svg.png"
+  ],
+  [
+    "name" => "Facebook",
+    "link" => "https://www.facebook.com/OneDirection",
+    "image" => "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png",
+    "alt" => "Facebook"
+  ],
+  [
+    "name" => "Twitter",
+    "link" => "https://twitter.com/OneDirection",
+    "image" => "https://cdn.pixabay.com/photo/2015/03/10/17/30/twitter-667462_640.png",
+    "alt" => "Twitter"
+  ],
+  [
+    "name" => "YouTube",
+    "link" => "https://www.youtube.com/channel/UCb2HGwORFBo94DmRx4oLzow",
+    "image" => "https://cdn.pixabay.com/photo/2016/11/19/03/08/youtube-1837872_640.png",
+    "alt" => "YouTube"
+  ],
+];
+$albums = [
+  [
+    "title" => "Take Me Home",
+    "release_date" => "2012",
+    "cover_url" => "https://upload.wikimedia.org/wikipedia/en/4/4f/One_Direction_-_Take_Me_Home.png",
+    "description" => "Second studio album by One Direction, featuring hits like 'Live While We're Young.'"
+  ],
+  [
+    "title" => "Midnight Memories",
+    "release_date" => "2013",
+    "cover_url" => "https://upload.wikimedia.org/wikipedia/en/5/51/One_Direction_-_Midnight_Memories.png",
+    "description" => "Third studio album with tracks like 'Best Song Ever' and 'Story of My Life.'"
+  ],
+  [
+    "title" => "Four",
+    "release_date" => "2014",
+    "cover_url" => "https://upload.wikimedia.org/wikipedia/en/e/e5/One_Direction_-_Four.png",
+    "description" => "Fourth studio album featuring 'Steal My Girl' and 'Night Changes.'"
+  ],
+];
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ONE DIRECTION</title>
+  <link
+    rel="icon"
+    href="https://images.app.goo.gl/PxbqcFouiWu1NSdD7"
+    type="image/png/png" />
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+    rel="stylesheet" />
+  <style>
+    body {
+      background: #102c3f;
+      /* Blue background */
+      color: #fff;
+      /* White text */
+      font-family: "Arial", sans-serif;
+    }
+
+    .container-fluid {
+      padding: 40px 0;
+      overflow-x: hidden;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 10rem;
+      font-weight: bold;
+      color: #fff;
+      /* White */
+      font-family: "Bangers", cursive;
+      /* Blocky Cartoon Font */
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      font-size: 10rem;
+      font-weight: bold;
+      padding: 20px;
+      color: #fff;
+      /* White */
+      font-family: "Bangers", cursive;
+      /* Blocky Cartoon Font */
+      background: #102c3f;
+      /* dark Blue background */
+    }
+
+    .header a {
+      color: #102c3f;
+      /* White */
+      text-decoration: none;
+    }
+
+    .header a:hover {
+      opacity: 0.8;
+      transform: scale(1.1);
+      transition: transform 0.3s ease;
+    }
+
+    /* Banner Image */
+    .banner-image {
+      width: 100%;
+      height: auto;
+      /* Adjust height as needed */
+      overflow: hidden;
+    }
+
+    .banner-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Introduction */
+    .introduction-container {
+      background: #fff;
+      /* white background */
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .introduction-container h2 {
+      color: #0072bb;
+      /* blue color text title */
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-family: "Bangers", cursive;
+      /* Blocky Cartoon Font */
+    }
+
+    .introduction-container p {
+      color: #0072bb;
+      /* blue text */
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    /* Band Members */
+    .members-title {
+      color: #ffffff;
+      /* white sub title color */
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      font-family: "Bangers", cursive;
+      /* Blocky Cartoon Font */
+    }
+
+    .members-container {
+      background: #ffffff;
+      /* Blue background */
+      border-radius: 60%;
+      padding: 0;
+      text-align: center;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      position: relative;
+      width: 300px;
+      /* Increased size */
+      height: 300px;
+      /* Increased size */
+      overflow: hidden;
+      margin: 0 auto;
+      /* Center the image */
+    }
+
+    .members-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      transition: transform 0.3s ease;
+    }
+
+    .members-container:hover img {
+      transform: scale(1.1);
+    }
+
+    .members-info {
+      color: #fff;
+      /* White text */
+      font-size: 1rem;
+      margin-top: 10px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.6);
+      padding: 5px;
+      border-radius: 10px;
+      width: 100%;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .members-container:hover .members-info {
+      opacity: 1;
+    }
+
+    .members-name {
+      color: #fff;
+      /* White text */
+      font-size: 1rem;
+      margin-top: 10px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 5px;
+      border-radius: 10px;
+    }
+
+    /* Music */
+    .music-container {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .music-section-title {
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 30px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      font-family: "Bangers", cursive;
+      /* Blocky Cartoon Font */
+    }
+
+    .music-link {
+      display: block;
+      text-decoration: none;
+      margin: 0 auto;
+      max-width: 400px;
+      /* Increased size */
+    }
+
+    .music-img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .music-img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .music-text {
+      color: #fff;
+      /* blue text */
+      font-size: 1rem;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    /* Contact */
+    .social-media-container {
+      border-radius: 10px;
+      padding: 20px;
+      background: #fff;
+      /* white background */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-description {
+      color: #102c3f;
+      /* darkblue text */
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+
+    .social-media-item {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .social-media-item a {
+      color: #102c3f;
+      /* darblue text */
+      text-decoration: none;
+      display: inline-block;
+      transition: color 0.3s ease;
+    }
+
+    .social-media-item a:hover {
+      color: #005b99;
+      /* Darker Blue */
+    }
+
+    .social-media-item img {
+      width: 50px;
+      /* Increased size */
+      height: 50px;
+      /* Increased size */
+      transition: transform 0.3s ease;
+    }
+
+    .social-media-item img:hover {
+      transform: scale(1.2);
+    }
+
+    .social-media-item p {
+      color: #102c3f;
+      /* darkblue text */
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+
+    /* Discography */
+    .album-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .album-card:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .album-cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      opacity: 0.7;
+      transition: opacity 0.5s ease;
+    }
+
+    .album-info {
+      position: relative;
+      z-index: 1;
+      background: #fff;
+      height: 100%;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .album-card:hover .album-cover {
+      opacity: 1;
+    }
+
+    .album-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #0072bb;
+      font-family: "Bangers", cursive;
+    }
+
+    .album-release-date {
+      font-size: 1rem;
+      color: #666;
+    }
+
+    .album-description {
+      font-size: 0.9rem;
+      color: #666;
+      text-align: center;
+    }
+
+    footer {
+      background: #0072bb;
+      /* Blue background */
+      padding: 20px 0;
+      text-align: center;
+      border-top: 1px solid;
+    }
+
+    footer p {
+      color: #fff;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Banner Image -->
+  <div class="banner-image">
+    <img
+      src="https://yt3.googleusercontent.com/28ftSAc4tKJI07ezpurX4tbM12eSHA2GZ5U6fRWjiEzR5-bhZBvoFQS2zNC44bWrqwgOIvmbWFA=w1138-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
+      alt="Banner Image" />
+  </div>
+
+  <!-- Header -->
+  <div class="header">One DIRECTION</div>
+
+  <!-- Band Members -->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="members-title">All of the members</div>
+      <div class="row">
+        <?php foreach ($members as $member): ?>
+          <div class="col-md-3 col-sm-6">
+            <div class="members-container">
+              <a href="<?= $member['link']; ?>" target="_blank">
+                <img src="<?= $member['image']; ?>" alt="<?= $member['alt']; ?>" />
+                <div class="members-name"><?= $member['name']; ?></div>
+                <div class="members-info"><?= $member['info']; ?></div>
+              </a>
+            </div>
+          </div>
+        <?php endforeach; ?>
+      </div>
+    </div>
+  </div>
+
+  <!-- Introduction -->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="introduction-container">
+            <h2>Introduction to One Direction</h2>
+            <p>
+              One Direction (1D) is an English-Irish pop boy band that formed
+              in London in 2010. The band members are Niall Horan, Liam Payne,
+              Harry Styles, and Louis Tomlinson, and previously included Zayn
+              Malik until 2015. The group was formed after the five members
+              auditioned for the seventh season of the British singing
+              competition The X Factor separately in 2010. Although they
+              didn't win the show, judges Simon Cowell, Nicole Scherzinger,
+              and Louis Walsh thought they were too talented to send home and
+              put them together as a group. The group finished in third place
+              and signed with Cowell's record label, Syco Records.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Music -->
+  <!--This section should loop through your $music array and display the music items-->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="music-section-title">Music by One Direction</div>
+      <div class="row">
+        <?php foreach ($music as $track): ?>
+          <div class="col-md-4">
+            <a class="music-link" href="<?= $track['link']; ?>" target="_blank">
+              <img class="music-img" src="<?= $track['image']; ?>" alt="<?= $track['alt']; ?>" />
+              <div class="music-text"><?= $track['title']; ?></div>
+            </a>
+          </div>
+        <?php endforeach; ?>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <!-- This section loops through the $socialMedia array to display social media links-->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="social-media-container">
+        <div class="contact-description">
+          Follow One Direction on Social Media
+        </div>
+        <div class="row">
+          <?php foreach ($socialMedia as $platform): ?>
+            <div class="col-md-3 social-media-item">
+              <a href="<?= $platform['link']; ?>" target="_blank">
+                <img src="<?= $platform['image']; ?>" alt="<?= $platform['alt'] ?? $platform['name']; ?>" />
+                <p><?= $platform['name']; ?></p>
+              </a>
+            </div>
+          <?php endforeach; ?>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Discography -->
+  <!--Finally, here’s how you can display the albums using the $albums array -->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="music-section-title">Discography</div>
+      <div class="row">
+        <?php foreach ($albums as $album): ?>
+          <div class="col-md-4">
+            <div class="album-card">
+              <div
+                class="album-cover"
+                style="background-image: url('<?= $album['cover_url']; ?>');"></div>
+              <div class="album-info">
+                <div class="album-title"><?= $album['title']; ?></div>
+                <div class="album-release-date"><?= $album['release_date']; ?></div>
+                <div class="album-description">
+                  <?= $album['description']; ?>
+                </div>
+              </div>
+            </div>
+          </div>
+        <?php endforeach; ?>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 1 Direction Fan Club. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
